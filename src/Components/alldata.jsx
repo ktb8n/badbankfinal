@@ -1,6 +1,6 @@
 //const [ToggleOn, setToggleOn] = useState(false);
 import React from "react";
-import Card from "react-bootstrap";
+import {Card}from "react-bootstrap";
 import UserContext from './context';
 
 function AllData() {

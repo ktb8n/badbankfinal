@@ -1,6 +1,6 @@
 import React from "react";
 import UserContext from "./context";
-import Card from "react-bootstrap";
+import {Card} from "react-bootstrap";
 
 function Withdraw() {
 	const [display, setDisplay] = React.useState(true);
