@@ -8,10 +8,7 @@ import Login from './Components/login';
 import NavBar from './Components/navbar';
 import Withdraw from './Components/withdraw';
 import React from "react";
-//import ReactRouterDOM from "react-dom"
-//import HashRouter from "react"; //import Context from './Components/context'; //import Route from "react";
-import {UserContext} from './Components/context';
-
+import { UserContext } from './Components/context';
 import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {

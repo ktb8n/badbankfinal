@@ -1,6 +1,6 @@
 import React from "react";
 //import ReactRouterDOM from "react";
-const {UserContext} = React.createContext(null);
+const UserContext = React.createContext(null);
 
 
 
