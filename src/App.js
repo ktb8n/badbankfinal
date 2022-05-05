@@ -12,11 +12,11 @@ import React from "react";
 //import HashRouter from "react"; //import Context from './Components/context'; //import Route from "react";
 import {UserContext} from './Components/context';
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 
 function App() {
 	return (
-		<BrowserRouter>
+		<HashRouter>
 			<NavBar />
 			<UserContext.Provider
 				value={{
@@ -42,7 +42,7 @@ function App() {
 					</Routes>
 				</div>
 			</UserContext.Provider>
-		</BrowserRouter>
+		</HashRouter>
 	);
 }
 export default App;
