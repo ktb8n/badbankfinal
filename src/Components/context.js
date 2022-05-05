@@ -1,12 +1,12 @@
 import React from "react";
 //import ReactRouterDOM from "react";
-const UserContext = React.createContext(null);
+const {UserContext} = React.createContext(null);
 
 
 
 
 
-function Context(props) {
+function Card(props) {
 	function classes() {
 		const bg = props.bgcolor ? " bg-" + props.bgcolor : " ";
 		const txt = props.txtcolor ? " text-" + props.txtcolor : " text-white";
@@ -25,4 +25,4 @@ function Context(props) {
 		</div>
 	);
 }
-export default {Context, UserContext};
+export {Card, UserContext};

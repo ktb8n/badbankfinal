@@ -1,6 +1,6 @@
 import React from "react";
-import UserContext from "./context";
-import {Card} from "react-bootstrap";
+import {UserContext} from "./context";
+import {Card} from "./context";
 
 function Deposit() {
 	const [display, setDisplay] = React.useState(true);
