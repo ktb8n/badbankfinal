@@ -10,7 +10,7 @@ function Home() {
 			text='We trim the fat and clean your money'
 			body={
 				<img
-					src='public/badPig.png'
+					src='badPig.png'
 					className='img-fluid'
 					alt='Responsive image'
 				/>
