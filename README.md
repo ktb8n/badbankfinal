@@ -1,14 +1,14 @@
 # Bad Bank MITxPro Project
 
-##Description: 
+## Description: 
 Explore, practice and implement a full stack application. Implement authorization and authentication layers
 
-##Left to do:
+## Left to do:
 #1. update ctx routes to integrate with a mongoDB back-end database
 #2. create authentication and authorization with firebase
 #3. Reconfigure display settings: A. Menu options appear only when a valid user is logged in. B. AllData shows only the data for the logged in user C. A logged in user can update their account settings? 
 
-##Technology Stack:
+## Technology Stack:
 -ExpressJS
 -React
 -NodeJS
